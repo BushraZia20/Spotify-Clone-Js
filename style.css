@@ -258,3 +258,31 @@
   margin-top: 0;
   color: #ffffff;
 }
+.your_top_mixes_items{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+.playlist_card {
+  border: 2px solid;
+  border-radius: 8px;
+  height: 226px;
+  width: 152px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: space-between;
+}
+.playlist_card p{
+  font-size: 13px;
+}
+.card_image {
+  height: 150px;
+  width: 150px;
+}
+.card_image img {
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
